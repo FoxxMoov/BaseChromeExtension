@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "homepage_url": "https://charioo.com/",
+  "description": "Charioo browser extension",
+  "default_locale": "en",
+  "permissions": ["activeTab", "<all_urls>", "*://*/*"],
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  },
+  "browser_action": {},
+  "content_scripts": [
+    {
+      "js": ["js/content-script.js"],
+      "matches": ["*://*/*"]
+    }
+  ],
+  "web_accessible_resources": ["popup.html"]
+}
