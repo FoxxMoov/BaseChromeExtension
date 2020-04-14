@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import '../assets/style/tailwind.css'
 
 /* eslint-disable no-new */
 new Vue({
