@@ -1,8 +1,7 @@
 {
   "manifest_version": 2,
   "name": "__MSG_extName__",
-  "homepage_url": "https://charioo.com/",
-  "description": "Charioo browser extension",
+  "description": "Chrome extension base",
   "default_locale": "en",
   "permissions": ["activeTab", "<all_urls>", "*://*/*"],
   "background": {
