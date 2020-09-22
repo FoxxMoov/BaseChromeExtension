@@ -22,8 +22,9 @@ export function insertPopup() {
     container.style.position = 'fixed'
     container.style.top = '10px'
     container.style.right = '10px'
-    container.style.width = '900px'
-    container.style.height = '700px'
+    //Enable the height if needed
+    // container.style.width = '900px'
+    // container.style.height = '700px'
     container.style.zIndex = '999999'
     container.style.backgroundColor = '#ffffff'
     container.style.border = 'none'
